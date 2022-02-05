@@ -5,7 +5,7 @@ if (randomNumber == '1') {
   computerMove = 'kamień';
 } else if (randomNumber == '2') {
   computerMove = 'papier';
-} else if (randomNumber == '3') {
+} else {
   computerMove = 'nożyce';
 } 
 printMessage('Mój ruch: ' + computerMove);
