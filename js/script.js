@@ -2,7 +2,7 @@ function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' was clicked');
   
-  var computerMove, playerMove, randomNumber;
+  let computerMove, playerMove, randomNumber;
   
   function getMoveName(argMoveId) {
     console.log('getMoveName called with an argument: ' + argMoveId);
@@ -43,9 +43,9 @@ function buttonClicked(argButtonName) {
   displayResult(playerMove, computerMove);
 }
 
-buttonRock = document.getElementById('button-rock');
+const buttonRock = document.getElementById('button-rock');
 buttonRock.addEventListener('click', function(){ buttonClicked('rock'); });
-buttonPaper = document.getElementById('button-paper');
+const buttonPaper = document.getElementById('button-paper');
 buttonPaper.addEventListener('click', function(){ buttonClicked('paper'); });
-buttonScissors = document.getElementById('button-scissors');
+const buttonScissors = document.getElementById('button-scissors');
 buttonScissors.addEventListener('click', function(){ buttonClicked('scissors'); });
