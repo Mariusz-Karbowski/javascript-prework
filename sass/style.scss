@@ -1,0 +1,73 @@
+/* Variables */
+$color-bckg-dark: #202020;
+$color-bckg-light: #34495e;
+$color-font-header: #f1c40f;
+$font-header: 'Josefin Sans', sans-serif;
+$font-msg: 'Lato', sans-serif;
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: $color-bckg-dark;
+}
+.container {
+    max-width: 1140px;
+    margin: 100px auto;
+    padding: 20px 20px;
+}
+button {
+    border: 7px solid;
+    border-radius: 15%;
+    background: none;
+    width: 150px;
+    height: 150px;
+    font-size: 80px;
+    padding: 0 30px;
+    margin: 30px;
+}
+.game-name {
+    font-family: $font-header;
+    font-size: 50px;
+    word-spacing: 20px;
+    color: $color-font-header;
+}
+.messages-box {
+    width: 450px;
+    height: 100px;
+    text-align: center;
+}
+#messages {
+    color: #16a085;
+    font-family: $font-msg;
+    font-size: 24px;
+}
+#buttons {
+    height: 30vh;
+    padding-top: 20px;
+}
+#button-rock {
+    color: #e67e22;
+    outline: 0;
+}
+#button-rock:hover {
+    color: #d35400;
+    
+}
+#button-paper {
+    color: #3498db;
+    outline: 0;
+}
+#button-paper:hover {
+    color: #1d6fa5;
+}
+#button-scissors {
+    color: #9b59b6;
+    outline: 0;
+}
+#button-scissors:hover {
+    color: #713b87;
+}

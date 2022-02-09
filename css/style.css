@@ -1,3 +1,81 @@
+/* Variables */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #202020;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.container {
+  max-width: 1140px;
+  margin: 100px auto;
+  padding: 20px 20px;
+}
+
+button {
+  border: 7px solid;
+  border-radius: 15%;
+  background: none;
+  width: 150px;
+  height: 150px;
+  font-size: 80px;
+  padding: 0 30px;
+  margin: 30px;
+}
+
+.game-name {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  word-spacing: 20px;
+  color: #f1c40f;
+}
+
+.messages-box {
+  width: 450px;
+  height: 100px;
+  text-align: center;
+}
+
+#messages {
+  color: #16a085;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+}
+
+#buttons {
+  height: 30vh;
+  padding-top: 20px;
+}
+
+#button-rock {
+  color: #e67e22;
+  outline: 0;
+}
+
+#button-rock:hover {
+  color: #d35400;
+}
+
+#button-paper {
+  color: #3498db;
+  outline: 0;
+}
+
+#button-paper:hover {
+  color: #1d6fa5;
+}
+
+#button-scissors {
+  color: #9b59b6;
+  outline: 0;
+}
+
+#button-scissors:hover {
+  color: #713b87;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBT0E7RUFDSSxzQkFBQTtBQ0xKOztBRE9BO0VBQ0ksU0FBQTtFQUNBLFVBQUE7RUFDQSxrQkFBQTtFQUNBLHlCQWJjO0FDU2xCOztBRE1BO0VBQ0ksaUJBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0FDSEo7O0FES0E7RUFDSSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLGVBQUE7RUFDQSxlQUFBO0VBQ0EsWUFBQTtBQ0ZKOztBRElBO0VBQ0ksdUNBNUJVO0VBNkJWLGVBQUE7RUFDQSxrQkFBQTtFQUNBLGNBaENnQjtBQytCcEI7O0FER0E7RUFDSSxZQUFBO0VBQ0EsYUFBQTtFQUNBLGtCQUFBO0FDQUo7O0FERUE7RUFDSSxjQUFBO0VBQ0EsK0JBdkNPO0VBd0NQLGVBQUE7QUNDSjs7QURDQTtFQUNJLFlBQUE7RUFDQSxpQkFBQTtBQ0VKOztBREFBO0VBQ0ksY0FBQTtFQUNBLFVBQUE7QUNHSjs7QUREQTtFQUNJLGNBQUE7QUNJSjs7QUREQTtFQUNJLGNBQUE7RUFDQSxVQUFBO0FDSUo7O0FERkE7RUFDSSxjQUFBO0FDS0o7O0FESEE7RUFDSSxjQUFBO0VBQ0EsVUFBQTtBQ01KOztBREpBO0VBQ0ksY0FBQTtBQ09KIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
